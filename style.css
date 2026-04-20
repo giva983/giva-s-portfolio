@@ -1,0 +1,97 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f14;
+    color: #eaeaea;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #1a1a24;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #eaeaea;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #c084fc; /* Kuromi purple */
+}
+
+/* Logo */
+.logo {
+    color: #c084fc;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(145deg, #12121a, #1c1c2b);
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #c084fc;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* Sections */
+.section {
+    padding: 60px 40px;
+}
+
+h2 {
+    color: #c084fc;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #1a1a24;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #26263a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a24;
+    margin-top: 40px;
+}
